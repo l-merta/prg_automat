@@ -28,57 +28,65 @@ namespace prg_automat
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1_rob = new System.Windows.Forms.Button();
-            this.button1_lukas = new System.Windows.Forms.Button();
-            this.cocapiti = new System.Windows.Forms.Button();
+            this.automat_name = new System.Windows.Forms.Label();
+            this.nadpis_1 = new System.Windows.Forms.Label();
+            this.piti_1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.piti_1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1_rob
+            // automat_name
             // 
-            this.button1_rob.Location = new System.Drawing.Point(514, 82);
-            this.button1_rob.Name = "button1_rob";
-            this.button1_rob.Size = new System.Drawing.Size(75, 23);
-            this.button1_rob.TabIndex = 0;
-            this.button1_rob.Text = "button1";
-            this.button1_rob.UseVisualStyleBackColor = true;
+            this.automat_name.AutoSize = true;
+            this.automat_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.automat_name.Location = new System.Drawing.Point(273, 9);
+            this.automat_name.Name = "automat_name";
+            this.automat_name.Size = new System.Drawing.Size(94, 24);
+            this.automat_name.TabIndex = 0;
+            this.automat_name.Text = "PIçOMAT";
             // 
-            // button1_lukas
+            // nadpis_1
             // 
-            this.button1_lukas.Location = new System.Drawing.Point(123, 199);
-            this.button1_lukas.Name = "button1_lukas";
-            this.button1_lukas.Size = new System.Drawing.Size(75, 23);
-            this.button1_lukas.TabIndex = 0;
-            this.button1_lukas.Text = "prd";
-            this.button1_lukas.UseVisualStyleBackColor = true;
+            this.nadpis_1.AutoSize = true;
+            this.nadpis_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nadpis_1.Location = new System.Drawing.Point(202, 33);
+            this.nadpis_1.Name = "nadpis_1";
+            this.nadpis_1.Size = new System.Drawing.Size(232, 31);
+            this.nadpis_1.TabIndex = 1;
+            this.nadpis_1.Text = "VYBERTE SI PITÕ";
             // 
-            // cocapiti
+            // piti_1
             // 
-            this.cocapiti.Location = new System.Drawing.Point(535, 259);
-            this.cocapiti.Name = "cocapiti";
-            this.cocapiti.Size = new System.Drawing.Size(93, 103);
-            this.cocapiti.TabIndex = 1;
-            this.cocapiti.Text = "coca";
-            this.cocapiti.UseVisualStyleBackColor = true;
+            this.piti_1.Image = global::prg_automat.Properties.Resources.cola;
+            this.piti_1.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.piti_1.Location = new System.Drawing.Point(66, 91);
+            this.piti_1.Name = "piti_1";
+            this.piti_1.Size = new System.Drawing.Size(120, 120);
+            this.piti_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.piti_1.TabIndex = 3;
+            this.piti_1.TabStop = false;
+            this.piti_1.Click += new System.EventHandler(this.piti_1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.cocapiti);
-            this.Controls.Add(this.button1_rob);
-            this.Controls.Add(this.button1_lukas);
+            this.ClientSize = new System.Drawing.Size(655, 606);
+            this.Controls.Add(this.piti_1);
+            this.Controls.Add(this.nadpis_1);
+            this.Controls.Add(this.automat_name);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.piti_1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1_rob;
-        private System.Windows.Forms.Button button1_lukas;
-        private System.Windows.Forms.Button cocapiti;
+        private System.Windows.Forms.Label automat_name;
+        private System.Windows.Forms.Label nadpis_1;
+        private System.Windows.Forms.PictureBox piti_1;
     }
 }
