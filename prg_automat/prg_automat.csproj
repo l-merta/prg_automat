@@ -68,6 +68,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="images\cola_obrazky\Thumbs.db" />
+    <None Include="images\minute_maid_obrazky\Thumbs.db" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,6 +82,34 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\cola_obrazky\cola.png" />
+    <Content Include="images\cola_obrazky\cola_cherry.png" />
+    <Content Include="images\cola_obrazky\cola_light.png" />
+    <Content Include="images\cola_obrazky\cola_oreo.png" />
+    <Content Include="images\cola_obrazky\cola_vanilla.png" />
+    <Content Include="images\cola_obrazky\cola_zero.png" />
+    <Content Include="images\fanta_obrazky\fanta.png" />
+    <Content Include="images\fanta_obrazky\fanta_exotic.png" />
+    <Content Include="images\fanta_obrazky\fanta_grape.png" />
+    <Content Include="images\fanta_obrazky\fanta_lemon.png" />
+    <Content Include="images\fanta_obrazky\fanta_zero.png" />
+    <Content Include="images\fuze_tea_obrazky\fuze_tea_forest_fruit.png" />
+    <Content Include="images\fuze_tea_obrazky\fuze_tea_lemon_lemongrass.png" />
+    <Content Include="images\fuze_tea_obrazky\fuze_tea_mango_pineapple.png" />
+    <Content Include="images\fuze_tea_obrazky\fuze_tea_peach_hibicus.png" />
+    <Content Include="images\fuze_tea_obrazky\fuze_tea_strawberry_aloe.png" />
+    <Content Include="images\minute_maid_obrazky\minute_maid_apple.png" />
+    <Content Include="images\minute_maid_obrazky\minute_maid_multivitamin.png" />
+    <Content Include="images\minute_maid_obrazky\minute_maid_orange.png" />
+    <Content Include="images\minute_maid_obrazky\minute_maid_pink_lemonade.png" />
+    <Content Include="images\minute_maid_obrazky\minute_maid_watermelon_punch.png" />
+    <Content Include="images\sprite_obrazky\sprite.png" />
+    <Content Include="images\sprite_obrazky\sprite_cranberry.png" />
+    <Content Include="images\sprite_obrazky\sprite_peach.png" />
+    <Content Include="images\sprite_obrazky\sprite_raspberry.png" />
+    <Content Include="images\sprite_obrazky\sprite_strawberry.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

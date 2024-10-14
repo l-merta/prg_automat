@@ -17,9 +17,30 @@ namespace prg_automat
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_sprite_Click(object sender, EventArgs e)
         {
+            Napoj piti = new Napoj("coca cola", "zero", 20);
+            piti.vypit();
+        }
+    }
 
+    class Napoj
+    {
+        string corp;
+        string name;
+        string wholeName;
+        decimal price;
+
+        public Napoj(string corp, string name, decimal price)
+        {
+            this.corp = corp;
+            this.name = name;
+            this.wholeName = corp + " " + name;
+            this.price = price;
+        }
+        public void vypit()
+        {
+            MessageBox.Show("pití " + this.wholeName + " bylo vypito");
         }
     }
 }
