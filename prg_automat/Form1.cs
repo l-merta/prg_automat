@@ -19,7 +19,7 @@ namespace prg_automat
 
         private void button_sprite_Click(object sender, EventArgs e)
         {
-            Napoj piti = new Napoj("coca cola", "zero", 20);
+            Napoj piti = new Napoj("sprite", "", 20);
             piti.vypit();
         }
     }
@@ -35,7 +35,7 @@ namespace prg_automat
         {
             this.corp = corp;
             this.name = name;
-            this.wholeName = corp + " " + name;
+            this.wholeName = corp + (name.Length > 0 ? " " : "") + name;
             this.price = price;
         }
         public void vypit()
