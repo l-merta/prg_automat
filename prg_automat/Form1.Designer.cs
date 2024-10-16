@@ -72,6 +72,7 @@ namespace prg_automat
             this.button_fanta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_fanta.TabIndex = 4;
             this.button_fanta.TabStop = false;
+            this.button_fanta.Click += new System.EventHandler(this.button_fanta_Click);
             // 
             // button_cola
             // 
@@ -83,6 +84,7 @@ namespace prg_automat
             this.button_cola.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_cola.TabIndex = 3;
             this.button_cola.TabStop = false;
+            this.button_cola.Click += new System.EventHandler(this.button_cola_Click);
             // 
             // button_fuze_tea
             // 
@@ -94,6 +96,7 @@ namespace prg_automat
             this.button_fuze_tea.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_fuze_tea.TabIndex = 5;
             this.button_fuze_tea.TabStop = false;
+            this.button_fuze_tea.Click += new System.EventHandler(this.button_fuze_tea_Click);
             // 
             // button_minute_maid
             // 
@@ -105,6 +108,7 @@ namespace prg_automat
             this.button_minute_maid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_minute_maid.TabIndex = 6;
             this.button_minute_maid.TabStop = false;
+            this.button_minute_maid.Click += new System.EventHandler(this.button_minute_maid_Click);
             // 
             // button_sprite
             // 

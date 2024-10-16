@@ -12,30 +12,105 @@ namespace prg_automat
 {
     public partial class Form1 : Form
     {
+        private Corp[] corps;
+        private int selectedCorp = 0;
+
         public Form1()
         {
             InitializeComponent();
+
+            corps = new Corp[5];
+
+            corps[0] = new Corp("Fanta");
+            corps[0].newDrink("", 20);
+            corps[0].newDrink("Zero", 20);
+            corps[0].newDrink("Grape", 20);
+
+            corps[1] = new Corp("Coca Cola");
+
+            corps[2] = new Corp("Sprite");
+
+            corps[3] = new Corp("Fuze Tea");
+
+            corps[4] = new Corp("Minute Maid");
+
         }
 
+        public Corp[] Corps
+        {
+            get { return corps; }
+        }
+        public int SelectedCorp
+        {
+            get { return selectedCorp; }
+        }
+
+        /// Main corp buttons
+        private void button_fanta_Click(object sender, EventArgs e)
+        {
+            selectedCorp = 0;
+
+            Form2 form2 = new Form2(this);
+            form2.Show();
+        }
+        private void button_cola_Click(object sender, EventArgs e)
+        {
+            selectedCorp = 1;
+
+            Form2 form2 = new Form2(this);
+            form2.Show();
+        }
         private void button_sprite_Click(object sender, EventArgs e)
         {
-            Napoj piti = new Napoj("sprite", "", 20);
-            piti.vypit();
+            selectedCorp = 2;
+
+            Form2 form2 = new Form2(this);
+            form2.Show();
+        }
+        private void button_fuze_tea_Click(object sender, EventArgs e)
+        {
+            selectedCorp = 3;
+
+            Form2 form2 = new Form2(this);
+            form2.Show();
+        }
+        private void button_minute_maid_Click(object sender, EventArgs e)
+        {
+            selectedCorp = 4;
+
+            Form2 form2 = new Form2(this);
+            form2.Show();
         }
     }
 
-    class Napoj
+    public class Corp
     {
-        string corp;
-        string name;
-        string wholeName;
-        decimal price;
+        public string name;
+        public List<Drink> drinks;
 
-        public Napoj(string corp, string name, decimal price)
+        public Corp(string name)
+        {
+            drinks = new List<Drink>();
+            this.name = name;
+        }
+        public void newDrink(string name, decimal price)
+        {
+            Drink newDrink = new Drink(this, name, price);
+            drinks.Add(newDrink);
+        }
+    }
+    public class Drink
+    {
+        public Corp corp;
+        public string name;
+        public string wholeName;
+        public decimal price;
+
+        public Drink(Corp corp, string name, decimal price)
         {
             this.corp = corp;
             this.name = name;
-            this.wholeName = corp + (name.Length > 0 ? " " : "") + name;
+            this.wholeName = corp.name + (name.Length > 0 ? " " : "") + name;
             this.price = price;
         }
         public void vypit()
