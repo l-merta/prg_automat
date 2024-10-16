@@ -23,7 +23,11 @@ namespace prg_automat
             corps = _form1.Corps;
             selectedCorp = _form1.SelectedCorp;
 
-            nadpis_2.Text = corps[selectedCorp].drinks[0].wholeName;
+            label1.Text = corps[selectedCorp].drinks[0].wholeName;
+            label2.Text = corps[selectedCorp].drinks[1].wholeName;
+            label3.Text = corps[selectedCorp].drinks[2].wholeName;
+            label4.Text = corps[selectedCorp].drinks[3].wholeName;
+            label5.Text = corps[selectedCorp].drinks[4].wholeName;
         }
     }
 }
