@@ -23,6 +23,11 @@ namespace prg_automat
             corps = _form1.Corps;
             selectedCorp = _form1.SelectedCorp;
 
+            // Use a relative path to load an image from the 'Images' folder
+            string relativePath = "images\\" + corps[selectedCorp].fileName + "_obrazky\\" + corps[selectedCorp].fileName + ".png";
+            string absolutePath = Application.StartupPath + "\\..\\..\\" + relativePath;
+
+            corp_icon.Image = Image.FromFile(absolutePath);
             label1.Text = corps[selectedCorp].drinks[0].wholeName;
             label2.Text = corps[selectedCorp].drinks[1].wholeName;
             label3.Text = corps[selectedCorp].drinks[2].wholeName;

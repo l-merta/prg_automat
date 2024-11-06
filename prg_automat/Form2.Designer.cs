@@ -35,6 +35,8 @@ namespace prg_automat
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.corp_icon = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.corp_icon)).BeginInit();
             this.SuspendLayout();
             // 
             // nadpis_2
@@ -91,11 +93,23 @@ namespace prg_automat
             this.label5.TabIndex = 5;
             this.label5.Text = "Název pití";
             // 
+            // corp_icon
+            // 
+            this.corp_icon.Image = global::prg_automat.Properties.Resources.cola;
+            this.corp_icon.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.corp_icon.Location = new System.Drawing.Point(448, 21);
+            this.corp_icon.Name = "corp_icon";
+            this.corp_icon.Size = new System.Drawing.Size(120, 120);
+            this.corp_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.corp_icon.TabIndex = 6;
+            this.corp_icon.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(593, 450);
+            this.Controls.Add(this.corp_icon);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -104,6 +118,7 @@ namespace prg_automat
             this.Controls.Add(this.nadpis_2);
             this.Name = "Form2";
             this.Text = "Form2";
+            ((System.ComponentModel.ISupportInitialize)(this.corp_icon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,5 +132,6 @@ namespace prg_automat
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox corp_icon;
     }
 }

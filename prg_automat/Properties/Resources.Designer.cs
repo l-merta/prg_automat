@@ -173,6 +173,16 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fuze_tea {
+            get {
+                object obj = ResourceManager.GetObject("fuze_tea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fuze_tea_forest_fruit {
             get {
                 object obj = ResourceManager.GetObject("fuze_tea_forest_fruit", resourceCulture);
@@ -216,6 +226,16 @@ namespace prg_automat.Properties {
         internal static System.Drawing.Bitmap fuze_tea_strawberry_aloe {
             get {
                 object obj = ResourceManager.GetObject("fuze_tea_strawberry_aloe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minute_maid {
+            get {
+                object obj = ResourceManager.GetObject("minute_maid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

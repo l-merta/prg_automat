@@ -30,16 +30,16 @@ namespace prg_automat
         {
             this.automat_name = new System.Windows.Forms.Label();
             this.nadpis_1 = new System.Windows.Forms.Label();
+            this.button_sprite = new System.Windows.Forms.PictureBox();
+            this.button_minute_maid = new System.Windows.Forms.PictureBox();
+            this.button_fuze_tea = new System.Windows.Forms.PictureBox();
             this.button_fanta = new System.Windows.Forms.PictureBox();
             this.button_cola = new System.Windows.Forms.PictureBox();
-            this.button_fuze_tea = new System.Windows.Forms.PictureBox();
-            this.button_minute_maid = new System.Windows.Forms.PictureBox();
-            this.button_sprite = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.button_sprite)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.button_minute_maid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.button_fuze_tea)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_fanta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_cola)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.button_fuze_tea)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.button_minute_maid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.button_sprite)).BeginInit();
             this.SuspendLayout();
             // 
             // automat_name
@@ -61,6 +61,42 @@ namespace prg_automat
             this.nadpis_1.Size = new System.Drawing.Size(232, 31);
             this.nadpis_1.TabIndex = 1;
             this.nadpis_1.Text = "VYBERTE SI PITÍ";
+            // 
+            // button_sprite
+            // 
+            this.button_sprite.Image = global::prg_automat.Properties.Resources.sprite;
+            this.button_sprite.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.button_sprite.Location = new System.Drawing.Point(417, 103);
+            this.button_sprite.Name = "button_sprite";
+            this.button_sprite.Size = new System.Drawing.Size(120, 120);
+            this.button_sprite.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.button_sprite.TabIndex = 7;
+            this.button_sprite.TabStop = false;
+            this.button_sprite.Click += new System.EventHandler(this.button_sprite_Click);
+            // 
+            // button_minute_maid
+            // 
+            this.button_minute_maid.Image = global::prg_automat.Properties.Resources.minute_maid;
+            this.button_minute_maid.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.button_minute_maid.Location = new System.Drawing.Point(341, 258);
+            this.button_minute_maid.Name = "button_minute_maid";
+            this.button_minute_maid.Size = new System.Drawing.Size(120, 120);
+            this.button_minute_maid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.button_minute_maid.TabIndex = 6;
+            this.button_minute_maid.TabStop = false;
+            this.button_minute_maid.Click += new System.EventHandler(this.button_minute_maid_Click);
+            // 
+            // button_fuze_tea
+            // 
+            this.button_fuze_tea.Image = global::prg_automat.Properties.Resources.fuze_tea;
+            this.button_fuze_tea.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.button_fuze_tea.Location = new System.Drawing.Point(177, 258);
+            this.button_fuze_tea.Name = "button_fuze_tea";
+            this.button_fuze_tea.Size = new System.Drawing.Size(120, 120);
+            this.button_fuze_tea.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.button_fuze_tea.TabIndex = 5;
+            this.button_fuze_tea.TabStop = false;
+            this.button_fuze_tea.Click += new System.EventHandler(this.button_fuze_tea_Click);
             // 
             // button_fanta
             // 
@@ -86,42 +122,6 @@ namespace prg_automat
             this.button_cola.TabStop = false;
             this.button_cola.Click += new System.EventHandler(this.button_cola_Click);
             // 
-            // button_fuze_tea
-            // 
-            this.button_fuze_tea.Image = global::prg_automat.Properties.Resources.fuze_tea_lemon_lemongrass;
-            this.button_fuze_tea.InitialImage = global::prg_automat.Properties.Resources.cola;
-            this.button_fuze_tea.Location = new System.Drawing.Point(177, 258);
-            this.button_fuze_tea.Name = "button_fuze_tea";
-            this.button_fuze_tea.Size = new System.Drawing.Size(120, 120);
-            this.button_fuze_tea.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.button_fuze_tea.TabIndex = 5;
-            this.button_fuze_tea.TabStop = false;
-            this.button_fuze_tea.Click += new System.EventHandler(this.button_fuze_tea_Click);
-            // 
-            // button_minute_maid
-            // 
-            this.button_minute_maid.Image = global::prg_automat.Properties.Resources.minute_maid_apple;
-            this.button_minute_maid.InitialImage = global::prg_automat.Properties.Resources.cola;
-            this.button_minute_maid.Location = new System.Drawing.Point(341, 258);
-            this.button_minute_maid.Name = "button_minute_maid";
-            this.button_minute_maid.Size = new System.Drawing.Size(120, 120);
-            this.button_minute_maid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.button_minute_maid.TabIndex = 6;
-            this.button_minute_maid.TabStop = false;
-            this.button_minute_maid.Click += new System.EventHandler(this.button_minute_maid_Click);
-            // 
-            // button_sprite
-            // 
-            this.button_sprite.Image = global::prg_automat.Properties.Resources.sprite;
-            this.button_sprite.InitialImage = global::prg_automat.Properties.Resources.cola;
-            this.button_sprite.Location = new System.Drawing.Point(417, 103);
-            this.button_sprite.Name = "button_sprite";
-            this.button_sprite.Size = new System.Drawing.Size(120, 120);
-            this.button_sprite.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.button_sprite.TabIndex = 7;
-            this.button_sprite.TabStop = false;
-            this.button_sprite.Click += new System.EventHandler(this.button_sprite_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,11 +137,11 @@ namespace prg_automat
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.button_sprite)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.button_minute_maid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.button_fuze_tea)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_fanta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_cola)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.button_fuze_tea)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.button_minute_maid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.button_sprite)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

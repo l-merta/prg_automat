@@ -55,7 +55,6 @@ namespace prg_automat
             corps[4].newDrink("Orange", 20);
             corps[4].newDrink("Pink Lemonade", 20);
             corps[4].newDrink("Watermelon Punch", 20);
-
         }
 
         public Corp[] Corps
@@ -108,23 +107,40 @@ namespace prg_automat
     public class Corp
     {
         public string name;
+        public string fileName;
         public List<Drink> drinks;
 
         public Corp(string name)
         {
             drinks = new List<Drink>();
             this.name = name;
+            this.fileName = ConvertToSnakeCase(name);
         }
         public void newDrink(string name, decimal price)
         {
             Drink newDrink = new Drink(this, name, price);
             drinks.Add(newDrink);
         }
+        public static string ConvertToSnakeCase(string input)
+        {
+            // Convert to lowercase
+            string lowercase = input.ToLower();
+
+            // Replace spaces with underscores
+            string snakeCase = lowercase.Replace(" ", "_");
+
+            // Optionally, remove or replace other characters if needed
+            // For example, you can remove non-alphabetical characters (if any)
+            // snakeCase = Regex.Replace(snakeCase, @"[^a-z0-9_]", "");
+
+            return snakeCase;
+        }
     }
     public class Drink
     {
         public Corp corp;
         public string name;
+        public string fileName;
         public string wholeName;
         public decimal price;
 
@@ -133,11 +149,26 @@ namespace prg_automat
             this.corp = corp;
             this.name = name;
             this.wholeName = corp.name + (name.Length > 0 ? " " : "") + name;
+            this.fileName = ConvertToSnakeCase(this.wholeName);
             this.price = price;
         }
         public void vypit()
         {
             MessageBox.Show("pití " + this.wholeName + " bylo vypito");
+        }
+        public static string ConvertToSnakeCase(string input)
+        {
+            // Convert to lowercase
+            string lowercase = input.ToLower();
+
+            // Replace spaces with underscores
+            string snakeCase = lowercase.Replace(" ", "_");
+
+            // Optionally, remove or replace other characters if needed
+            // For example, you can remove non-alphabetical characters (if any)
+            // snakeCase = Regex.Replace(snakeCase, @"[^a-z0-9_]", "");
+
+            return snakeCase;
         }
     }
 }
