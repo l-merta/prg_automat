@@ -69,20 +69,20 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <None Include="images\cola_obrazky\Thumbs.db" />
+    <None Include="images\coca_cola_obrazky\Thumbs.db" />
     <None Include="images\minute_maid_obrazky\Thumbs.db" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -93,12 +93,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\cola_obrazky\cola.png" />
-    <Content Include="images\cola_obrazky\cola_cherry.png" />
-    <Content Include="images\cola_obrazky\cola_light.png" />
-    <Content Include="images\cola_obrazky\cola_oreo.png" />
-    <Content Include="images\cola_obrazky\cola_vanilla.png" />
-    <Content Include="images\cola_obrazky\cola_zero.png" />
+    <Content Include="images\coca_cola_obrazky\coca_cola.png" />
+    <Content Include="images\coca_cola_obrazky\coca_cola_cherry.png" />
+    <Content Include="images\coca_cola_obrazky\coca_cola_light.png" />
+    <Content Include="images\coca_cola_obrazky\coca_cola_oreo.png" />
+    <Content Include="images\coca_cola_obrazky\coca_cola_vanilla.png" />
+    <Content Include="images\coca_cola_obrazky\coca_cola_zero.png" />
     <Content Include="images\fanta_obrazky\fanta.png" />
     <Content Include="images\fanta_obrazky\fanta_exotic.png" />
     <Content Include="images\fanta_obrazky\fanta_grape.png" />

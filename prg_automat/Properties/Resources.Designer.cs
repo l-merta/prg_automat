@@ -63,9 +63,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cola {
+        internal static System.Drawing.Bitmap coca_cola {
             get {
-                object obj = ResourceManager.GetObject("cola", resourceCulture);
+                object obj = ResourceManager.GetObject("coca_cola", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cola_cherry {
+        internal static System.Drawing.Bitmap coca_cola_cherry {
             get {
-                object obj = ResourceManager.GetObject("cola_cherry", resourceCulture);
+                object obj = ResourceManager.GetObject("coca_cola_cherry", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cola_light {
+        internal static System.Drawing.Bitmap coca_cola_light {
             get {
-                object obj = ResourceManager.GetObject("cola_light", resourceCulture);
+                object obj = ResourceManager.GetObject("coca_cola_light", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cola_oreo {
+        internal static System.Drawing.Bitmap coca_cola_oreo {
             get {
-                object obj = ResourceManager.GetObject("cola_oreo", resourceCulture);
+                object obj = ResourceManager.GetObject("coca_cola_oreo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cola_vanilla {
+        internal static System.Drawing.Bitmap coca_cola_vanilla {
             get {
-                object obj = ResourceManager.GetObject("cola_vanilla", resourceCulture);
+                object obj = ResourceManager.GetObject("coca_cola_vanilla", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cola_zero {
+        internal static System.Drawing.Bitmap coca_cola_zero {
             get {
-                object obj = ResourceManager.GetObject("cola_zero", resourceCulture);
+                object obj = ResourceManager.GetObject("coca_cola_zero", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -65,7 +65,7 @@ namespace prg_automat
             // button_sprite
             // 
             this.button_sprite.Image = global::prg_automat.Properties.Resources.sprite;
-            this.button_sprite.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.button_sprite.InitialImage = global::prg_automat.Properties.Resources.sprite;
             this.button_sprite.Location = new System.Drawing.Point(417, 103);
             this.button_sprite.Name = "button_sprite";
             this.button_sprite.Size = new System.Drawing.Size(120, 120);
@@ -77,7 +77,7 @@ namespace prg_automat
             // button_minute_maid
             // 
             this.button_minute_maid.Image = global::prg_automat.Properties.Resources.minute_maid;
-            this.button_minute_maid.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.button_minute_maid.InitialImage = global::prg_automat.Properties.Resources.minute_maid;
             this.button_minute_maid.Location = new System.Drawing.Point(341, 258);
             this.button_minute_maid.Name = "button_minute_maid";
             this.button_minute_maid.Size = new System.Drawing.Size(120, 120);
@@ -89,7 +89,7 @@ namespace prg_automat
             // button_fuze_tea
             // 
             this.button_fuze_tea.Image = global::prg_automat.Properties.Resources.fuze_tea;
-            this.button_fuze_tea.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.button_fuze_tea.InitialImage = global::prg_automat.Properties.Resources.fuze_tea;
             this.button_fuze_tea.Location = new System.Drawing.Point(177, 258);
             this.button_fuze_tea.Name = "button_fuze_tea";
             this.button_fuze_tea.Size = new System.Drawing.Size(120, 120);
@@ -101,7 +101,7 @@ namespace prg_automat
             // button_fanta
             // 
             this.button_fanta.Image = global::prg_automat.Properties.Resources.fanta;
-            this.button_fanta.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.button_fanta.InitialImage = global::prg_automat.Properties.Resources.fanta;
             this.button_fanta.Location = new System.Drawing.Point(98, 103);
             this.button_fanta.Name = "button_fanta";
             this.button_fanta.Size = new System.Drawing.Size(120, 120);
@@ -112,8 +112,8 @@ namespace prg_automat
             // 
             // button_cola
             // 
-            this.button_cola.Image = global::prg_automat.Properties.Resources.cola;
-            this.button_cola.InitialImage = global::prg_automat.Properties.Resources.cola;
+            this.button_cola.Image = global::prg_automat.Properties.Resources.coca_cola;
+            this.button_cola.InitialImage = global::prg_automat.Properties.Resources.coca_cola;
             this.button_cola.Location = new System.Drawing.Point(258, 103);
             this.button_cola.Name = "button_cola";
             this.button_cola.Size = new System.Drawing.Size(120, 120);

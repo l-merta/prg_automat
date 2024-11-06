@@ -28,6 +28,7 @@ namespace prg_automat
             string absolutePath = Application.StartupPath + "\\..\\..\\" + relativePath;
 
             corp_icon.Image = Image.FromFile(absolutePath);
+            nadpis_2.Text = corps[selectedCorp].name;
             label1.Text = corps[selectedCorp].drinks[0].wholeName;
             label2.Text = corps[selectedCorp].drinks[1].wholeName;
             label3.Text = corps[selectedCorp].drinks[2].wholeName;

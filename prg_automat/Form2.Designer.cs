@@ -42,16 +42,17 @@ namespace prg_automat
             // nadpis_2
             // 
             this.nadpis_2.AutoSize = true;
-            this.nadpis_2.Location = new System.Drawing.Point(58, 19);
+            this.nadpis_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nadpis_2.Location = new System.Drawing.Point(80, 30);
             this.nadpis_2.Name = "nadpis_2";
-            this.nadpis_2.Size = new System.Drawing.Size(67, 13);
+            this.nadpis_2.Size = new System.Drawing.Size(88, 20);
             this.nadpis_2.TabIndex = 0;
-            this.nadpis_2.Text = "Možnosti pití";
+            this.nadpis_2.Text = "Název corp";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(58, 62);
+            this.label1.Location = new System.Drawing.Point(189, 162);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 1;
@@ -60,7 +61,7 @@ namespace prg_automat
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(58, 95);
+            this.label2.Location = new System.Drawing.Point(167, 213);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 13);
             this.label2.TabIndex = 2;
@@ -69,7 +70,7 @@ namespace prg_automat
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(58, 128);
+            this.label3.Location = new System.Drawing.Point(225, 149);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 13);
             this.label3.TabIndex = 3;
@@ -78,7 +79,7 @@ namespace prg_automat
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(58, 162);
+            this.label4.Location = new System.Drawing.Point(237, 192);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 13);
             this.label4.TabIndex = 4;
@@ -87,7 +88,7 @@ namespace prg_automat
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(58, 192);
+            this.label5.Location = new System.Drawing.Point(225, 257);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 13);
             this.label5.TabIndex = 5;
@@ -95,11 +96,9 @@ namespace prg_automat
             // 
             // corp_icon
             // 
-            this.corp_icon.Image = global::prg_automat.Properties.Resources.cola;
-            this.corp_icon.InitialImage = global::prg_automat.Properties.Resources.cola;
-            this.corp_icon.Location = new System.Drawing.Point(448, 21);
+            this.corp_icon.Location = new System.Drawing.Point(12, 12);
             this.corp_icon.Name = "corp_icon";
-            this.corp_icon.Size = new System.Drawing.Size(120, 120);
+            this.corp_icon.Size = new System.Drawing.Size(55, 55);
             this.corp_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.corp_icon.TabIndex = 6;
             this.corp_icon.TabStop = false;
