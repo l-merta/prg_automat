@@ -23,17 +23,35 @@ namespace prg_automat
             corps = _form1.Corps;
             selectedCorp = _form1.SelectedCorp;
 
-            // Use a relative path to load an image from the 'Images' folder
-            string relativePath = "images\\" + corps[selectedCorp].fileName + "_obrazky\\" + corps[selectedCorp].fileName + ".png";
-            string absolutePath = Application.StartupPath + "\\..\\..\\" + relativePath;
+            
 
-            corp_icon.Image = Image.FromFile(absolutePath);
+            corp_icon.Image = Image.FromFile(GetImage(corps[selectedCorp].fileName, corps[selectedCorp].fileName));
             nadpis_2.Text = corps[selectedCorp].name;
-            label1.Text = corps[selectedCorp].drinks[0].wholeName;
-            label2.Text = corps[selectedCorp].drinks[1].wholeName;
-            label3.Text = corps[selectedCorp].drinks[2].wholeName;
-            label4.Text = corps[selectedCorp].drinks[3].wholeName;
-            label5.Text = corps[selectedCorp].drinks[4].wholeName;
+            //
+            drinkPic1.Image = Image.FromFile(GetImage(corps[selectedCorp].fileName, corps[selectedCorp].drinks[0].fileName));
+            drinkPic2.Image = Image.FromFile(GetImage(corps[selectedCorp].fileName, corps[selectedCorp].drinks[1].fileName));
+            drinkPic3.Image = Image.FromFile(GetImage(corps[selectedCorp].fileName, corps[selectedCorp].drinks[2].fileName));
+            drinkPic4.Image = Image.FromFile(GetImage(corps[selectedCorp].fileName, corps[selectedCorp].drinks[3].fileName));
+            drinkPic5.Image = Image.FromFile(GetImage(corps[selectedCorp].fileName, corps[selectedCorp].drinks[4].fileName));
+            //
+            label1.Text = corps[selectedCorp].drinks[0].price + ",-";
+            label2.Text = corps[selectedCorp].drinks[1].price + ",-";
+            label3.Text = corps[selectedCorp].drinks[2].price + ",-";
+            label4.Text = corps[selectedCorp].drinks[3].price + ",-";
+            label5.Text = corps[selectedCorp].drinks[4].price + ",-";
+        }
+
+        public string GetImage(string corpFileName, string fileName)
+        {
+            // Use a relative path to load an image from the 'Images' folder
+            string relativePath = "images\\" + corpFileName + "_obrazky\\" + fileName + ".png";
+            string absolutePath = Application.StartupPath + "\\..\\..\\" + relativePath;
+            return absolutePath;
+        }
+
+        private void drinkPic2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

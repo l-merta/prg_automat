@@ -193,9 +193,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fuze_tea_lemon_lemongrass {
+        internal static System.Drawing.Bitmap fuze_tea_lemon_and_lemongrass {
             get {
-                object obj = ResourceManager.GetObject("fuze_tea_lemon_lemongrass", resourceCulture);
+                object obj = ResourceManager.GetObject("fuze_tea_lemon_and_lemongrass", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fuze_tea_mango_pineapple {
+        internal static System.Drawing.Bitmap fuze_tea_mango_and_pineapple {
             get {
-                object obj = ResourceManager.GetObject("fuze_tea_mango_pineapple", resourceCulture);
+                object obj = ResourceManager.GetObject("fuze_tea_mango_and_pineapple", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fuze_tea_peach_hibicus {
+        internal static System.Drawing.Bitmap fuze_tea_peach_and_hibicus {
             get {
-                object obj = ResourceManager.GetObject("fuze_tea_peach_hibicus", resourceCulture);
+                object obj = ResourceManager.GetObject("fuze_tea_peach_and_hibicus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fuze_tea_strawberry_aloe {
+        internal static System.Drawing.Bitmap fuze_tea_strawberry_and_aloe_vera {
             get {
-                object obj = ResourceManager.GetObject("fuze_tea_strawberry_aloe", resourceCulture);
+                object obj = ResourceManager.GetObject("fuze_tea_strawberry_and_aloe_vera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

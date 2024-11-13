@@ -22,39 +22,39 @@ namespace prg_automat
             corps = new Corp[5];
             // Fanta
             corps[0] = new Corp("Fanta");
-            corps[0].newDrink("", 20);
-            corps[0].newDrink("Zero", 20);
-            corps[0].newDrink("Lemon", 20);
-            corps[0].newDrink("Grape", 20);
-            corps[0].newDrink("Exotic", 20);
+            corps[0].newDrink("", 28);
+            corps[0].newDrink("Zero", 28);
+            corps[0].newDrink("Lemon", 30);
+            corps[0].newDrink("Grape", 30);
+            corps[0].newDrink("Exotic", 30);
             // Coca Cola
             corps[1] = new Corp("Coca Cola");
-            corps[1].newDrink("", 20);
-            corps[1].newDrink("Zero", 20);
-            corps[1].newDrink("Cherry", 20);
-            corps[1].newDrink("Vanilla", 20);
-            corps[1].newDrink("Oreo", 20);
+            corps[1].newDrink("", 28);
+            corps[1].newDrink("Zero", 28);
+            corps[1].newDrink("Cherry", 30);
+            corps[1].newDrink("Vanilla", 30);
+            corps[1].newDrink("Oreo", 32);
             // Sprite
             corps[2] = new Corp("Sprite");
-            corps[2].newDrink("", 20);
-            corps[2].newDrink("Cranberry", 20);
-            corps[2].newDrink("Peach", 20);
-            corps[2].newDrink("Raspberry", 20);
-            corps[2].newDrink("Strawberry", 20);
+            corps[2].newDrink("", 28);
+            corps[2].newDrink("Cranberry", 35);
+            corps[2].newDrink("Peach", 30);
+            corps[2].newDrink("Raspberry", 30);
+            corps[2].newDrink("Strawberry", 30);
             // Fuze Tea
             corps[3] = new Corp("Fuze Tea");
-            corps[3].newDrink("Forest Fruit", 20);
-            corps[3].newDrink("Lemon and Lemongrass", 20);
-            corps[3].newDrink("Mango and Pineapple", 20);
-            corps[3].newDrink("Peach and Hibicus", 20);
-            corps[3].newDrink("Strawberry and Aloe Vera", 20);
+            corps[3].newDrink("Forest Fruit", 28);
+            corps[3].newDrink("Lemon and Lemongrass", 28);
+            corps[3].newDrink("Mango and Pineapple", 28);
+            corps[3].newDrink("Peach and Hibicus", 28);
+            corps[3].newDrink("Strawberry and Aloe Vera", 28);
             // Minute Maid
             corps[4] = new Corp("Minute Maid");
-            corps[4].newDrink("Apple", 20);
-            corps[4].newDrink("Multivitamin", 20);
-            corps[4].newDrink("Orange", 20);
-            corps[4].newDrink("Pink Lemonade", 20);
-            corps[4].newDrink("Watermelon Punch", 20);
+            corps[4].newDrink("Apple", 25);
+            corps[4].newDrink("Multivitamin", 25);
+            corps[4].newDrink("Orange", 25);
+            corps[4].newDrink("Pink Lemonade", 25);
+            corps[4].newDrink("Watermelon Punch", 25);
         }
 
         public Corp[] Corps

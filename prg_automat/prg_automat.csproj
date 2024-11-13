@@ -106,11 +106,15 @@
     <Content Include="images\fanta_obrazky\fanta_zero.png" />
     <None Include="images\fuze_tea_obrazky\fuze_tea.png" />
     <Content Include="images\fuze_tea_obrazky\fuze_tea_forest_fruit.png" />
+    <None Include="images\fuze_tea_obrazky\fuze_tea_lemon_and_lemongrass.png" />
     <Content Include="images\fuze_tea_obrazky\fuze_tea_lemon_lemongrass.png" />
+    <None Include="images\fuze_tea_obrazky\fuze_tea_mango_and_pineapple.png" />
     <Content Include="images\fuze_tea_obrazky\fuze_tea_mango_pineapple.png" />
+    <None Include="images\fuze_tea_obrazky\fuze_tea_peach_and_hibicus.png" />
     <Content Include="images\fuze_tea_obrazky\fuze_tea_peach_hibicus.png" />
     <Content Include="images\fuze_tea_obrazky\fuze_tea_strawberry_aloe.png" />
     <None Include="images\minute_maid_obrazky\minute_maid.png" />
+    <None Include="images\fuze_tea_obrazky\fuze_tea_strawberry_and_aloe_vera.png" />
     <Content Include="images\minute_maid_obrazky\minute_maid_apple.png" />
     <Content Include="images\minute_maid_obrazky\minute_maid_multivitamin.png" />
     <Content Include="images\minute_maid_obrazky\minute_maid_orange.png" />
