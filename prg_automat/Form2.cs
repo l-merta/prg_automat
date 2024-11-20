@@ -24,8 +24,6 @@ namespace prg_automat
             corps = _form1.Corps;
             selectedCorp = _form1.SelectedCorp;
 
-
-
             corp_icon.Image = Image.FromFile(GetImage(corps[selectedCorp].fileName, corps[selectedCorp].fileName));
             nadpis_2.Text = corps[selectedCorp].name;
             //
@@ -115,6 +113,15 @@ namespace prg_automat
             {
                 Form3 form3 = new Form3(this);
                 form3.Show();
+            }
+        }
+
+        private void platbaButton2_Click(object sender, EventArgs e)
+        {
+            if (selectedDrink >= 0)
+            {
+                Form4 form4 = new Form4(this);
+                form4.Show();
             }
         }
     }

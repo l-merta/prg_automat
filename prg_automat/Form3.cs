@@ -27,7 +27,10 @@ namespace prg_automat
             selectedCorp = form2.SelectedCorp;
             selectedDrink = form2.SelectedDrink;
 
-            MessageBox.Show(corps[selectedCorp].name + " - " + corps[selectedCorp].drinks[selectedDrink].name);
+            corp_icon.Image = Image.FromFile(form2.GetImage(corps[selectedCorp].fileName, corps[selectedCorp].fileName));
+            nadpis_2.Text = corps[selectedCorp].name;
+
+
         }
     }
 }

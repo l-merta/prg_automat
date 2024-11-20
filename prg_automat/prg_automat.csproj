@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>prg_automat</RootNamespace>
     <AssemblyName>prg_automat</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -138,6 +138,12 @@
     <Content Include="images\minute_maid_obrazky\minute_maid_orange.png" />
     <Content Include="images\minute_maid_obrazky\minute_maid_pink_lemonade.png" />
     <Content Include="images\minute_maid_obrazky\minute_maid_watermelon_punch.png" />
+    <None Include="images\penize\mince_deset.png" />
+    <None Include="images\penize\mince_dvacet.png" />
+    <None Include="images\penize\mince_dve.png" />
+    <None Include="images\penize\mince_jedna.png" />
+    <None Include="images\penize\mince_padesat.png" />
+    <None Include="images\penize\mince_pet.png" />
     <Content Include="images\sprite_obrazky\sprite.png" />
     <Content Include="images\sprite_obrazky\sprite_cranberry.png" />
     <Content Include="images\sprite_obrazky\sprite_peach.png" />

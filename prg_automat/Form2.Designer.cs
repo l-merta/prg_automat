@@ -57,9 +57,9 @@ namespace prg_automat
             this.nadpis_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.nadpis_2.Location = new System.Drawing.Point(73, 28);
             this.nadpis_2.Name = "nadpis_2";
-            this.nadpis_2.Size = new System.Drawing.Size(88, 20);
+            this.nadpis_2.Size = new System.Drawing.Size(106, 20);
             this.nadpis_2.TabIndex = 0;
-            this.nadpis_2.Text = "Název corp";
+            this.nadpis_2.Text = "Název značky";
             // 
             // label2
             // 
@@ -68,7 +68,7 @@ namespace prg_automat
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(115, 37);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Název pití";
+            this.label2.Text = ",-";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
@@ -78,7 +78,7 @@ namespace prg_automat
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 37);
             this.label3.TabIndex = 15;
-            this.label3.Text = "20,-";
+            this.label3.Text = ",-";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // platbaButton1
@@ -99,6 +99,7 @@ namespace prg_automat
             this.platbaButton2.TabIndex = 19;
             this.platbaButton2.Text = "Kartou";
             this.platbaButton2.UseVisualStyleBackColor = true;
+            this.platbaButton2.Click += new System.EventHandler(this.platbaButton2_Click);
             // 
             // label1
             // 
@@ -107,7 +108,7 @@ namespace prg_automat
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 37);
             this.label1.TabIndex = 20;
-            this.label1.Text = "Název pití";
+            this.label1.Text = ",-";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label4
@@ -117,7 +118,7 @@ namespace prg_automat
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 37);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Název pití";
+            this.label4.Text = ",-";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label5
@@ -127,7 +128,7 @@ namespace prg_automat
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(115, 37);
             this.label5.TabIndex = 22;
-            this.label5.Text = "Název pití";
+            this.label5.Text = ",-";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // drinkPic5
