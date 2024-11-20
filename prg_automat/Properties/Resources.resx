@@ -124,11 +124,14 @@
   <data name="fuze_tea_mango_and_pineapple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\fuze_tea_obrazky\fuze_tea_mango_and_pineapple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fuze_tea_strawberry_and_aloe_vera" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\fuze_tea_obrazky\fuze_tea_strawberry_and_aloe_vera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mince_jedna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\penize\mince_jedna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fanta_exotic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\fanta_obrazky\fanta_exotic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mince_dvacet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\penize\mince_dvacet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\fanta_obrazky\fanta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,6 +154,9 @@
   <data name="coca_cola_light" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\coca_cola_obrazky\coca_cola_light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mince_padesat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\penize\mince_padesat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="coca_cola_cherry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\coca_cola_obrazky\coca_cola_cherry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,6 +178,12 @@
   <data name="sprite_strawberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\sprite_obrazky\sprite_strawberry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="minute_maid_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\minute_maid_obrazky\minute_maid_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mince_dve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\penize\mince_dve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="minute_maid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\minute_maid_obrazky\minute_maid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -183,6 +195,9 @@
   </data>
   <data name="sprite_peach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\sprite_obrazky\sprite_peach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mince_deset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\penize\mince_deset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fuze_tea_peach_and_hibicus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\fuze_tea_obrazky\fuze_tea_peach_and_hibicus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,28 +211,16 @@
   <data name="minute_maid_multivitamin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\minute_maid_obrazky\minute_maid_multivitamin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="minute_maid_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\minute_maid_obrazky\minute_maid_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fuze_tea_strawberry_and_aloe_vera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\fuze_tea_obrazky\fuze_tea_strawberry_and_aloe_vera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="coca_cola_zero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\coca_cola_obrazky\coca_cola_zero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mince_deset" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\penize\mince_deset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mince_dvacet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\penize\mince_dvacet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mince_dve" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\penize\mince_dve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mince_jedna" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\penize\mince_jedna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mince_padesat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\penize\mince_padesat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="mince_pet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\penize\mince_pet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_automat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\bg_automat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

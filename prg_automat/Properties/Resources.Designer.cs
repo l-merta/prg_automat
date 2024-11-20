@@ -63,6 +63,16 @@ namespace prg_automat.Properties {
         /// <summary>
         ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bg_automat {
+            get {
+                object obj = ResourceManager.GetObject("bg_automat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Vyhledává lokalizovaný prostředek typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coca_cola {
             get {
                 object obj = ResourceManager.GetObject("coca_cola", resourceCulture);

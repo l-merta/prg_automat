@@ -111,6 +111,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="images\bg_automat.png" />
     <Content Include="images\coca_cola_obrazky\coca_cola.png" />
     <Content Include="images\coca_cola_obrazky\coca_cola_cherry.png" />
     <Content Include="images\coca_cola_obrazky\coca_cola_light.png" />
