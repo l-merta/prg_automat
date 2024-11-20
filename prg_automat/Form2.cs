@@ -49,9 +49,46 @@ namespace prg_automat
             return absolutePath;
         }
 
+        private void drinkPic1_Click(object sender, EventArgs e)
+        {
+            drinkPicClick(sender);
+        }
+
         private void drinkPic2_Click(object sender, EventArgs e)
         {
+            drinkPicClick(sender);
+        }
 
+        private void drinkPic3_Click(object sender, EventArgs e)
+        {
+            drinkPicClick(sender);
+        }
+
+        private void drinkPic4_Click(object sender, EventArgs e)
+        {
+            drinkPicClick(sender);
+        }
+
+        private void drinkPic5_Click(object sender, EventArgs e)
+        {
+            drinkPicClick(sender);
+        }
+
+        public void drinkPicClick(object sender)
+        {
+            // Assuming the sender is a PictureBox, you can cast it
+            PictureBox drinkButton = sender as PictureBox;
+
+            if (drinkButton != null)
+            {
+                drinkPic1.BorderStyle = BorderStyle.None;
+                drinkPic2.BorderStyle = BorderStyle.None;
+                drinkPic3.BorderStyle = BorderStyle.None;
+                drinkPic4.BorderStyle = BorderStyle.None;
+                drinkPic5.BorderStyle = BorderStyle.None;
+
+                drinkButton.BorderStyle = BorderStyle.FixedSingle;
+            }
         }
     }
 }

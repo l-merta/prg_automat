@@ -64,6 +64,7 @@ namespace prg_automat
             // 
             // button_sprite
             // 
+            this.button_sprite.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_sprite.Image = global::prg_automat.Properties.Resources.sprite;
             this.button_sprite.InitialImage = global::prg_automat.Properties.Resources.sprite;
             this.button_sprite.Location = new System.Drawing.Point(417, 103);
@@ -76,6 +77,7 @@ namespace prg_automat
             // 
             // button_minute_maid
             // 
+            this.button_minute_maid.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_minute_maid.Image = global::prg_automat.Properties.Resources.minute_maid;
             this.button_minute_maid.InitialImage = global::prg_automat.Properties.Resources.minute_maid;
             this.button_minute_maid.Location = new System.Drawing.Point(341, 258);
@@ -88,6 +90,7 @@ namespace prg_automat
             // 
             // button_fuze_tea
             // 
+            this.button_fuze_tea.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_fuze_tea.Image = global::prg_automat.Properties.Resources.fuze_tea;
             this.button_fuze_tea.InitialImage = global::prg_automat.Properties.Resources.fuze_tea;
             this.button_fuze_tea.Location = new System.Drawing.Point(177, 258);
@@ -100,6 +103,7 @@ namespace prg_automat
             // 
             // button_fanta
             // 
+            this.button_fanta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_fanta.Image = global::prg_automat.Properties.Resources.fanta;
             this.button_fanta.InitialImage = global::prg_automat.Properties.Resources.fanta;
             this.button_fanta.Location = new System.Drawing.Point(98, 103);
@@ -112,6 +116,7 @@ namespace prg_automat
             // 
             // button_cola
             // 
+            this.button_cola.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_cola.Image = global::prg_automat.Properties.Resources.coca_cola;
             this.button_cola.InitialImage = global::prg_automat.Properties.Resources.coca_cola;
             this.button_cola.Location = new System.Drawing.Point(258, 103);
@@ -136,7 +141,7 @@ namespace prg_automat
             this.Controls.Add(this.automat_name);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Výbìr znaèky";
             ((System.ComponentModel.ISupportInitialize)(this.button_sprite)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_minute_maid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_fuze_tea)).EndInit();
