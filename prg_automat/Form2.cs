@@ -15,6 +15,7 @@ namespace prg_automat
         private Form1 _form1;
         Corp[] corps;
         int selectedCorp = 0;
+        int selectedDrink = -1;
 
         public Form2(Form1 form1)
         {
@@ -23,7 +24,7 @@ namespace prg_automat
             corps = _form1.Corps;
             selectedCorp = _form1.SelectedCorp;
 
-            
+
 
             corp_icon.Image = Image.FromFile(GetImage(corps[selectedCorp].fileName, corps[selectedCorp].fileName));
             nadpis_2.Text = corps[selectedCorp].name;
@@ -40,6 +41,18 @@ namespace prg_automat
             label4.Text = corps[selectedCorp].drinks[3].price + ",-";
             label5.Text = corps[selectedCorp].drinks[4].price + ",-";
         }
+        public int SelectedCorp
+        {
+            get { return selectedCorp; }
+        }
+        public Corp[] Corps
+        {
+            get { return corps; }
+        }
+        public int SelectedDrink
+        {
+            get { return selectedDrink; }
+        }
 
         public string GetImage(string corpFileName, string fileName)
         {
@@ -51,26 +64,31 @@ namespace prg_automat
 
         private void drinkPic1_Click(object sender, EventArgs e)
         {
+            selectedDrink = 0;
             drinkPicClick(sender);
         }
 
         private void drinkPic2_Click(object sender, EventArgs e)
         {
+            selectedDrink = 1;
             drinkPicClick(sender);
         }
 
         private void drinkPic3_Click(object sender, EventArgs e)
         {
+            selectedDrink = 2;
             drinkPicClick(sender);
         }
 
         private void drinkPic4_Click(object sender, EventArgs e)
         {
+            selectedDrink = 3;
             drinkPicClick(sender);
         }
 
         private void drinkPic5_Click(object sender, EventArgs e)
         {
+            selectedDrink = 4;
             drinkPicClick(sender);
         }
 
@@ -88,6 +106,15 @@ namespace prg_automat
                 drinkPic5.BorderStyle = BorderStyle.None;
 
                 drinkButton.BorderStyle = BorderStyle.FixedSingle;
+            }
+        }
+
+        private void platbaButton1_Click(object sender, EventArgs e)
+        {
+            if (selectedDrink >= 0)
+            {
+                Form3 form3 = new Form3(this);
+                form3.Show();
             }
         }
     }

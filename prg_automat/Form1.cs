@@ -102,6 +102,11 @@ namespace prg_automat
             Form2 form2 = new Form2(this);
             form2.Show();
         }
+
+        private void nadpis_1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class Corp

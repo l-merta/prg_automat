@@ -61,6 +61,7 @@ namespace prg_automat
             this.nadpis_1.Size = new System.Drawing.Size(232, 31);
             this.nadpis_1.TabIndex = 1;
             this.nadpis_1.Text = "VYBERTE SI PITÍ";
+            this.nadpis_1.Click += new System.EventHandler(this.nadpis_1_Click);
             // 
             // button_sprite
             // 

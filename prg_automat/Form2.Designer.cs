@@ -89,6 +89,7 @@ namespace prg_automat
             this.platbaButton1.TabIndex = 18;
             this.platbaButton1.Text = "Hotově";
             this.platbaButton1.UseVisualStyleBackColor = true;
+            this.platbaButton1.Click += new System.EventHandler(this.platbaButton1_Click);
             // 
             // platbaButton2
             // 
