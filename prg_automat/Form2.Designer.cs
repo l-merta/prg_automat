@@ -205,7 +205,7 @@ namespace prg_automat
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox1.Image = global::prg_automat.Properties.Resources.bg_automat;
             this.pictureBox1.InitialImage = global::prg_automat.Properties.Resources.fanta;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
