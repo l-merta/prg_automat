@@ -40,6 +40,7 @@ namespace prg_automat
             this.drink_icon = new System.Windows.Forms.PictureBox();
             this.corp_icon = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.mince_2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.mince_50)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mince_20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mince_10)).BeginInit();
@@ -48,6 +49,7 @@ namespace prg_automat
             ((System.ComponentModel.ISupportInitialize)(this.drink_icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.corp_icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_2)).BeginInit();
             this.SuspendLayout();
             // 
             // nadpis_2
@@ -84,7 +86,7 @@ namespace prg_automat
             // 
             this.mince_50.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mince_50.Image = global::prg_automat.Properties.Resources.mince_padesat;
-            this.mince_50.Location = new System.Drawing.Point(229, 363);
+            this.mince_50.Location = new System.Drawing.Point(286, 363);
             this.mince_50.Name = "mince_50";
             this.mince_50.Size = new System.Drawing.Size(135, 90);
             this.mince_50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,7 +98,7 @@ namespace prg_automat
             // 
             this.mince_20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mince_20.Image = global::prg_automat.Properties.Resources.mince_dvacet;
-            this.mince_20.Location = new System.Drawing.Point(124, 368);
+            this.mince_20.Location = new System.Drawing.Point(191, 373);
             this.mince_20.Name = "mince_20";
             this.mince_20.Size = new System.Drawing.Size(80, 80);
             this.mince_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -108,7 +110,7 @@ namespace prg_automat
             // 
             this.mince_10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mince_10.Image = global::prg_automat.Properties.Resources.mince_deset;
-            this.mince_10.Location = new System.Drawing.Point(307, 265);
+            this.mince_10.Location = new System.Drawing.Point(71, 373);
             this.mince_10.Name = "mince_10";
             this.mince_10.Size = new System.Drawing.Size(80, 80);
             this.mince_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -120,7 +122,7 @@ namespace prg_automat
             // 
             this.mince_5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mince_5.Image = global::prg_automat.Properties.Resources.mince_pet;
-            this.mince_5.Location = new System.Drawing.Point(191, 265);
+            this.mince_5.Location = new System.Drawing.Point(312, 265);
             this.mince_5.Name = "mince_5";
             this.mince_5.Size = new System.Drawing.Size(80, 80);
             this.mince_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -172,11 +174,24 @@ namespace prg_automat
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
+            // mince_2
+            // 
+            this.mince_2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mince_2.Image = global::prg_automat.Properties.Resources.mince_dve;
+            this.mince_2.Location = new System.Drawing.Point(190, 265);
+            this.mince_2.Name = "mince_2";
+            this.mince_2.Size = new System.Drawing.Size(80, 80);
+            this.mince_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mince_2.TabIndex = 25;
+            this.mince_2.TabStop = false;
+            this.mince_2.Click += new System.EventHandler(this.mince_2_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 611);
+            this.Controls.Add(this.mince_2);
             this.Controls.Add(this.mince_50);
             this.Controls.Add(this.mince_20);
             this.Controls.Add(this.mince_10);
@@ -198,6 +213,7 @@ namespace prg_automat
             ((System.ComponentModel.ISupportInitialize)(this.drink_icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.corp_icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,5 +232,6 @@ namespace prg_automat
         private System.Windows.Forms.PictureBox mince_20;
         private System.Windows.Forms.PictureBox mince_50;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox mince_2;
     }
 }

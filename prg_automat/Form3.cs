@@ -48,6 +48,10 @@ namespace prg_automat
         {
             vhoditMinci(1);
         }
+        private void mince_2_Click(object sender, EventArgs e)
+        {
+            vhoditMinci(2);
+        }
 
         private void mince_5_Click(object sender, EventArgs e)
         {
