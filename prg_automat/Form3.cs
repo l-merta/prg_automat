@@ -93,6 +93,10 @@ namespace prg_automat
                     bought = true;
                 }
             }
+            else
+            {
+                to_pay.Text = "Jděte pryč";
+            }
         }
     }
 }

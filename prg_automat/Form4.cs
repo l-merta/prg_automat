@@ -19,6 +19,7 @@ namespace prg_automat
         public Drink drinkData;
         public int selectedCorp;
         public int selectedDrink;
+        public bool bought;
 
         public Form4(Form2 form2)
         {
@@ -41,7 +42,15 @@ namespace prg_automat
 
         private void pay_button_Click(object sender, EventArgs e)
         {
-            to_pay.Text = "Dobrou chuť";
+            if (!bought)
+            {
+                to_pay.Text = "Dobrou chuť";
+                bought = true;
+            }
+            else
+            {
+                to_pay.Text = "Jděte pryč";
+            }
         }
     }
 }
