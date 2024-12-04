@@ -32,10 +32,11 @@ namespace prg_automat
             this.nadpis_2 = new System.Windows.Forms.Label();
             this.to_pay = new System.Windows.Forms.Label();
             this.drink_price = new System.Windows.Forms.Label();
-            this.pay_button = new System.Windows.Forms.Button();
+            this.button_terminal = new System.Windows.Forms.PictureBox();
             this.drink_icon = new System.Windows.Forms.PictureBox();
             this.corp_icon = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.button_terminal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.drink_icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.corp_icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -71,15 +72,16 @@ namespace prg_automat
             this.drink_price.TabIndex = 13;
             this.drink_price.Text = "20,-";
             // 
-            // pay_button
+            // button_terminal
             // 
-            this.pay_button.Location = new System.Drawing.Point(201, 302);
-            this.pay_button.Name = "pay_button";
-            this.pay_button.Size = new System.Drawing.Size(75, 23);
-            this.pay_button.TabIndex = 15;
-            this.pay_button.Text = "Zaplatit";
-            this.pay_button.UseVisualStyleBackColor = true;
-            this.pay_button.Click += new System.EventHandler(this.pay_button_Click);
+            this.button_terminal.Image = global::prg_automat.Properties.Resources.platebni_terminal;
+            this.button_terminal.Location = new System.Drawing.Point(163, 274);
+            this.button_terminal.Name = "button_terminal";
+            this.button_terminal.Size = new System.Drawing.Size(150, 150);
+            this.button_terminal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.button_terminal.TabIndex = 26;
+            this.button_terminal.TabStop = false;
+            this.button_terminal.Click += new System.EventHandler(this.button_terminal_Click);
             // 
             // drink_icon
             // 
@@ -118,7 +120,7 @@ namespace prg_automat
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 611);
-            this.Controls.Add(this.pay_button);
+            this.Controls.Add(this.button_terminal);
             this.Controls.Add(this.to_pay);
             this.Controls.Add(this.drink_price);
             this.Controls.Add(this.drink_icon);
@@ -127,6 +129,7 @@ namespace prg_automat
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form4";
             this.Text = "Platba - kartou";
+            ((System.ComponentModel.ISupportInitialize)(this.button_terminal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.drink_icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.corp_icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -142,7 +145,7 @@ namespace prg_automat
         private System.Windows.Forms.Label to_pay;
         private System.Windows.Forms.Label drink_price;
         private System.Windows.Forms.PictureBox drink_icon;
-        private System.Windows.Forms.Button pay_button;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox button_terminal;
     }
 }

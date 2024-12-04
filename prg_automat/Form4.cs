@@ -40,9 +40,11 @@ namespace prg_automat
             drink_price.Text = drinkData.price + ",-";
         }
 
-        private void pay_button_Click(object sender, EventArgs e)
+      
+
+        private void button_terminal_Click(object sender, EventArgs e)
         {
-            if (!bought)
+             if (!bought)
             {
                 to_pay.Text = "Dobrou chuť";
                 bought = true;

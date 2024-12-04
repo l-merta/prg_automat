@@ -111,6 +111,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\platebni_terminal2.png" />
+    <None Include="Resources\platebni_terminal1.png" />
+    <None Include="Resources\platebni_terminal.png" />
     <None Include="images\bg_automat.png" />
     <Content Include="images\coca_cola_obrazky\coca_cola.png" />
     <Content Include="images\coca_cola_obrazky\coca_cola_cherry.png" />
