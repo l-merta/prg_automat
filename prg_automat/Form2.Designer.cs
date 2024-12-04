@@ -57,7 +57,7 @@ namespace prg_automat
             // 
             this.nadpis_2.AutoSize = true;
             this.nadpis_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.nadpis_2.Location = new System.Drawing.Point(91, 35);
+            this.nadpis_2.Location = new System.Drawing.Point(88, 44);
             this.nadpis_2.Name = "nadpis_2";
             this.nadpis_2.Size = new System.Drawing.Size(106, 20);
             this.nadpis_2.TabIndex = 0;
@@ -66,7 +66,7 @@ namespace prg_automat
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(174, 192);
+            this.label2.Location = new System.Drawing.Point(173, 193);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(115, 37);
             this.label2.TabIndex = 2;
@@ -76,7 +76,7 @@ namespace prg_automat
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(317, 192);
+            this.label3.Location = new System.Drawing.Point(316, 193);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 37);
             this.label3.TabIndex = 15;
@@ -106,7 +106,7 @@ namespace prg_automat
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(32, 190);
+            this.label1.Location = new System.Drawing.Point(31, 191);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 37);
             this.label1.TabIndex = 20;
@@ -161,7 +161,7 @@ namespace prg_automat
             // 
             this.drinkPic3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.drinkPic3.Image = global::prg_automat.Properties.Resources.coca_cola;
-            this.drinkPic3.Location = new System.Drawing.Point(325, 91);
+            this.drinkPic3.Location = new System.Drawing.Point(324, 92);
             this.drinkPic3.Name = "drinkPic3";
             this.drinkPic3.Size = new System.Drawing.Size(95, 95);
             this.drinkPic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -173,7 +173,7 @@ namespace prg_automat
             // 
             this.drinkPic2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.drinkPic2.Image = global::prg_automat.Properties.Resources.coca_cola;
-            this.drinkPic2.Location = new System.Drawing.Point(183, 91);
+            this.drinkPic2.Location = new System.Drawing.Point(182, 92);
             this.drinkPic2.Name = "drinkPic2";
             this.drinkPic2.Size = new System.Drawing.Size(95, 95);
             this.drinkPic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -185,7 +185,7 @@ namespace prg_automat
             // 
             this.drinkPic1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.drinkPic1.Image = global::prg_automat.Properties.Resources.coca_cola;
-            this.drinkPic1.Location = new System.Drawing.Point(41, 91);
+            this.drinkPic1.Location = new System.Drawing.Point(40, 92);
             this.drinkPic1.Name = "drinkPic1";
             this.drinkPic1.Size = new System.Drawing.Size(95, 95);
             this.drinkPic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -196,7 +196,7 @@ namespace prg_automat
             // corp_icon
             // 
             this.corp_icon.Image = global::prg_automat.Properties.Resources.coca_cola;
-            this.corp_icon.Location = new System.Drawing.Point(30, 19);
+            this.corp_icon.Location = new System.Drawing.Point(27, 28);
             this.corp_icon.Name = "corp_icon";
             this.corp_icon.Size = new System.Drawing.Size(55, 55);
             this.corp_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

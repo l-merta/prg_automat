@@ -121,7 +121,7 @@ namespace prg_automat
             this.name = name;
             this.fileName = ConvertToSnakeCase(name);
         }
-        public void newDrink(string name, decimal price)
+        public void newDrink(string name, int price)
         {
             Drink newDrink = new Drink(this, name, price);
             drinks.Add(newDrink);
@@ -147,9 +147,9 @@ namespace prg_automat
         public string name;
         public string fileName;
         public string wholeName;
-        public decimal price;
+        public int price;
 
-        public Drink(Corp corp, string name, decimal price)
+        public Drink(Corp corp, string name, int price)
         {
             this.corp = corp;
             this.name = name;
@@ -157,9 +157,9 @@ namespace prg_automat
             this.fileName = ConvertToSnakeCase(this.wholeName);
             this.price = price;
         }
-        public void vypit()
+        public int vhoditMinci(int currentPrice, int mince)
         {
-            MessageBox.Show("pití " + this.wholeName + " bylo vypito");
+            return currentPrice - mince;
         }
         public static string ConvertToSnakeCase(string input)
         {

@@ -45,7 +45,7 @@ namespace prg_automat
             // 
             this.nadpis_2.AutoSize = true;
             this.nadpis_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.nadpis_2.Location = new System.Drawing.Point(96, 38);
+            this.nadpis_2.Location = new System.Drawing.Point(89, 43);
             this.nadpis_2.Name = "nadpis_2";
             this.nadpis_2.Size = new System.Drawing.Size(106, 20);
             this.nadpis_2.TabIndex = 7;
@@ -79,6 +79,7 @@ namespace prg_automat
             this.pay_button.TabIndex = 15;
             this.pay_button.Text = "Zaplatit";
             this.pay_button.UseVisualStyleBackColor = true;
+            this.pay_button.Click += new System.EventHandler(this.pay_button_Click);
             // 
             // drink_icon
             // 
@@ -93,7 +94,7 @@ namespace prg_automat
             // corp_icon
             // 
             this.corp_icon.Image = global::prg_automat.Properties.Resources.coca_cola;
-            this.corp_icon.Location = new System.Drawing.Point(35, 22);
+            this.corp_icon.Location = new System.Drawing.Point(28, 27);
             this.corp_icon.Name = "corp_icon";
             this.corp_icon.Size = new System.Drawing.Size(55, 55);
             this.corp_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

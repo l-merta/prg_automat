@@ -48,7 +48,7 @@ namespace prg_automat
             // 
             this.automat_name.AutoSize = true;
             this.automat_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.automat_name.Location = new System.Drawing.Point(191, 16);
+            this.automat_name.Location = new System.Drawing.Point(185, 31);
             this.automat_name.Name = "automat_name";
             this.automat_name.Size = new System.Drawing.Size(94, 24);
             this.automat_name.TabIndex = 0;
@@ -58,7 +58,7 @@ namespace prg_automat
             // 
             this.nadpis_1.AutoSize = true;
             this.nadpis_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.nadpis_1.Location = new System.Drawing.Point(120, 40);
+            this.nadpis_1.Location = new System.Drawing.Point(114, 55);
             this.nadpis_1.Name = "nadpis_1";
             this.nadpis_1.Size = new System.Drawing.Size(232, 31);
             this.nadpis_1.TabIndex = 1;
@@ -82,9 +82,9 @@ namespace prg_automat
             this.button_sprite.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_sprite.Image = global::prg_automat.Properties.Resources.sprite;
             this.button_sprite.InitialImage = global::prg_automat.Properties.Resources.sprite;
-            this.button_sprite.Location = new System.Drawing.Point(309, 103);
+            this.button_sprite.Location = new System.Drawing.Point(293, 113);
             this.button_sprite.Name = "button_sprite";
-            this.button_sprite.Size = new System.Drawing.Size(80, 80);
+            this.button_sprite.Size = new System.Drawing.Size(100, 100);
             this.button_sprite.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_sprite.TabIndex = 7;
             this.button_sprite.TabStop = false;
@@ -95,9 +95,9 @@ namespace prg_automat
             this.button_minute_maid.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_minute_maid.Image = global::prg_automat.Properties.Resources.minute_maid;
             this.button_minute_maid.InitialImage = global::prg_automat.Properties.Resources.minute_maid;
-            this.button_minute_maid.Location = new System.Drawing.Point(259, 202);
+            this.button_minute_maid.Location = new System.Drawing.Point(243, 212);
             this.button_minute_maid.Name = "button_minute_maid";
-            this.button_minute_maid.Size = new System.Drawing.Size(80, 80);
+            this.button_minute_maid.Size = new System.Drawing.Size(100, 100);
             this.button_minute_maid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_minute_maid.TabIndex = 6;
             this.button_minute_maid.TabStop = false;
@@ -108,9 +108,9 @@ namespace prg_automat
             this.button_fuze_tea.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_fuze_tea.Image = global::prg_automat.Properties.Resources.fuze_tea;
             this.button_fuze_tea.InitialImage = global::prg_automat.Properties.Resources.fuze_tea;
-            this.button_fuze_tea.Location = new System.Drawing.Point(137, 202);
+            this.button_fuze_tea.Location = new System.Drawing.Point(121, 212);
             this.button_fuze_tea.Name = "button_fuze_tea";
-            this.button_fuze_tea.Size = new System.Drawing.Size(80, 80);
+            this.button_fuze_tea.Size = new System.Drawing.Size(100, 100);
             this.button_fuze_tea.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_fuze_tea.TabIndex = 5;
             this.button_fuze_tea.TabStop = false;
@@ -121,9 +121,9 @@ namespace prg_automat
             this.button_fanta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_fanta.Image = global::prg_automat.Properties.Resources.fanta;
             this.button_fanta.InitialImage = global::prg_automat.Properties.Resources.fanta;
-            this.button_fanta.Location = new System.Drawing.Point(80, 103);
+            this.button_fanta.Location = new System.Drawing.Point(64, 113);
             this.button_fanta.Name = "button_fanta";
-            this.button_fanta.Size = new System.Drawing.Size(80, 80);
+            this.button_fanta.Size = new System.Drawing.Size(100, 100);
             this.button_fanta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_fanta.TabIndex = 4;
             this.button_fanta.TabStop = false;
@@ -134,9 +134,9 @@ namespace prg_automat
             this.button_cola.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_cola.Image = global::prg_automat.Properties.Resources.coca_cola;
             this.button_cola.InitialImage = global::prg_automat.Properties.Resources.coca_cola;
-            this.button_cola.Location = new System.Drawing.Point(195, 103);
+            this.button_cola.Location = new System.Drawing.Point(179, 113);
             this.button_cola.Name = "button_cola";
-            this.button_cola.Size = new System.Drawing.Size(80, 80);
+            this.button_cola.Size = new System.Drawing.Size(100, 100);
             this.button_cola.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.button_cola.TabIndex = 3;
             this.button_cola.TabStop = false;

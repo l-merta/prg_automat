@@ -32,21 +32,21 @@ namespace prg_automat
             this.nadpis_2 = new System.Windows.Forms.Label();
             this.drink_price = new System.Windows.Forms.Label();
             this.to_pay = new System.Windows.Forms.Label();
+            this.mince_50 = new System.Windows.Forms.PictureBox();
+            this.mince_20 = new System.Windows.Forms.PictureBox();
+            this.mince_10 = new System.Windows.Forms.PictureBox();
+            this.mince_5 = new System.Windows.Forms.PictureBox();
             this.mince_1 = new System.Windows.Forms.PictureBox();
             this.drink_icon = new System.Windows.Forms.PictureBox();
             this.corp_icon = new System.Windows.Forms.PictureBox();
-            this.mince_5 = new System.Windows.Forms.PictureBox();
-            this.mince_10 = new System.Windows.Forms.PictureBox();
-            this.mince_20 = new System.Windows.Forms.PictureBox();
-            this.mince_50 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mince_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.drink_icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.corp_icon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mince_5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mince_10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mince_20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mince_50)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +54,7 @@ namespace prg_automat
             // 
             this.nadpis_2.AutoSize = true;
             this.nadpis_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.nadpis_2.Location = new System.Drawing.Point(96, 37);
+            this.nadpis_2.Location = new System.Drawing.Point(87, 44);
             this.nadpis_2.Name = "nadpis_2";
             this.nadpis_2.Size = new System.Drawing.Size(106, 20);
             this.nadpis_2.TabIndex = 7;
@@ -80,6 +80,54 @@ namespace prg_automat
             this.to_pay.TabIndex = 11;
             this.to_pay.Text = "Vhoďte 20,-";
             // 
+            // mince_50
+            // 
+            this.mince_50.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mince_50.Image = global::prg_automat.Properties.Resources.mince_padesat;
+            this.mince_50.Location = new System.Drawing.Point(229, 363);
+            this.mince_50.Name = "mince_50";
+            this.mince_50.Size = new System.Drawing.Size(135, 90);
+            this.mince_50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mince_50.TabIndex = 16;
+            this.mince_50.TabStop = false;
+            this.mince_50.Click += new System.EventHandler(this.mince_50_Click);
+            // 
+            // mince_20
+            // 
+            this.mince_20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mince_20.Image = global::prg_automat.Properties.Resources.mince_dvacet;
+            this.mince_20.Location = new System.Drawing.Point(124, 368);
+            this.mince_20.Name = "mince_20";
+            this.mince_20.Size = new System.Drawing.Size(80, 80);
+            this.mince_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mince_20.TabIndex = 15;
+            this.mince_20.TabStop = false;
+            this.mince_20.Click += new System.EventHandler(this.mince_20_Click);
+            // 
+            // mince_10
+            // 
+            this.mince_10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mince_10.Image = global::prg_automat.Properties.Resources.mince_deset;
+            this.mince_10.Location = new System.Drawing.Point(307, 265);
+            this.mince_10.Name = "mince_10";
+            this.mince_10.Size = new System.Drawing.Size(80, 80);
+            this.mince_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mince_10.TabIndex = 14;
+            this.mince_10.TabStop = false;
+            this.mince_10.Click += new System.EventHandler(this.mince_10_Click);
+            // 
+            // mince_5
+            // 
+            this.mince_5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mince_5.Image = global::prg_automat.Properties.Resources.mince_pet;
+            this.mince_5.Location = new System.Drawing.Point(191, 265);
+            this.mince_5.Name = "mince_5";
+            this.mince_5.Size = new System.Drawing.Size(80, 80);
+            this.mince_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.mince_5.TabIndex = 13;
+            this.mince_5.TabStop = false;
+            this.mince_5.Click += new System.EventHandler(this.mince_5_Click);
+            // 
             // mince_1
             // 
             this.mince_1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -90,6 +138,7 @@ namespace prg_automat
             this.mince_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.mince_1.TabIndex = 12;
             this.mince_1.TabStop = false;
+            this.mince_1.Click += new System.EventHandler(this.mince_1_Click);
             // 
             // drink_icon
             // 
@@ -104,56 +153,12 @@ namespace prg_automat
             // corp_icon
             // 
             this.corp_icon.Image = global::prg_automat.Properties.Resources.coca_cola;
-            this.corp_icon.Location = new System.Drawing.Point(35, 21);
+            this.corp_icon.Location = new System.Drawing.Point(26, 28);
             this.corp_icon.Name = "corp_icon";
             this.corp_icon.Size = new System.Drawing.Size(55, 55);
             this.corp_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.corp_icon.TabIndex = 8;
             this.corp_icon.TabStop = false;
-            // 
-            // mince_5
-            // 
-            this.mince_5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mince_5.Image = global::prg_automat.Properties.Resources.mince_pet;
-            this.mince_5.Location = new System.Drawing.Point(191, 265);
-            this.mince_5.Name = "mince_5";
-            this.mince_5.Size = new System.Drawing.Size(80, 80);
-            this.mince_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.mince_5.TabIndex = 13;
-            this.mince_5.TabStop = false;
-            // 
-            // mince_10
-            // 
-            this.mince_10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mince_10.Image = global::prg_automat.Properties.Resources.mince_deset;
-            this.mince_10.Location = new System.Drawing.Point(307, 265);
-            this.mince_10.Name = "mince_10";
-            this.mince_10.Size = new System.Drawing.Size(80, 80);
-            this.mince_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.mince_10.TabIndex = 14;
-            this.mince_10.TabStop = false;
-            // 
-            // mince_20
-            // 
-            this.mince_20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mince_20.Image = global::prg_automat.Properties.Resources.mince_dvacet;
-            this.mince_20.Location = new System.Drawing.Point(124, 368);
-            this.mince_20.Name = "mince_20";
-            this.mince_20.Size = new System.Drawing.Size(80, 80);
-            this.mince_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.mince_20.TabIndex = 15;
-            this.mince_20.TabStop = false;
-            // 
-            // mince_50
-            // 
-            this.mince_50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mince_50.Image = global::prg_automat.Properties.Resources.mince_padesat;
-            this.mince_50.Location = new System.Drawing.Point(229, 363);
-            this.mince_50.Name = "mince_50";
-            this.mince_50.Size = new System.Drawing.Size(135, 90);
-            this.mince_50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.mince_50.TabIndex = 16;
-            this.mince_50.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -185,13 +190,13 @@ namespace prg_automat
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form3";
             this.Text = "Platba - hotově";
+            ((System.ComponentModel.ISupportInitialize)(this.mince_50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mince_5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mince_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.drink_icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.corp_icon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mince_5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mince_10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mince_20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mince_50)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

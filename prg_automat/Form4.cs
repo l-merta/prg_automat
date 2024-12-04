@@ -15,6 +15,8 @@ namespace prg_automat
         private Form2 _form2;
 
         public Corp[] corps;
+        public Corp corpData;
+        public Drink drinkData;
         public int selectedCorp;
         public int selectedDrink;
 
@@ -27,9 +29,19 @@ namespace prg_automat
             selectedCorp = form2.SelectedCorp;
             selectedDrink = form2.SelectedDrink;
 
+            corpData = corps[selectedCorp];
+            drinkData = corps[selectedCorp].drinks[selectedDrink];
+
             corp_icon.Image = Image.FromFile(form2.GetImage(corps[selectedCorp].fileName, corps[selectedCorp].fileName));
             nadpis_2.Text = corps[selectedCorp].name;
 
+            drink_icon.Image = Image.FromFile(form2.GetImage(corpData.fileName, drinkData.fileName));
+            drink_price.Text = drinkData.price + ",-";
+        }
+
+        private void pay_button_Click(object sender, EventArgs e)
+        {
+            to_pay.Text = "Dobrou chuť";
         }
     }
 }
