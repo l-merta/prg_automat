@@ -74,8 +74,9 @@ namespace prg_automat
             // 
             // button_terminal
             // 
+            this.button_terminal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_terminal.Image = global::prg_automat.Properties.Resources.platebni_terminal;
-            this.button_terminal.Location = new System.Drawing.Point(163, 274);
+            this.button_terminal.Location = new System.Drawing.Point(155, 280);
             this.button_terminal.Name = "button_terminal";
             this.button_terminal.Size = new System.Drawing.Size(150, 150);
             this.button_terminal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
