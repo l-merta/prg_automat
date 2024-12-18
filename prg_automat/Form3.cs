@@ -98,5 +98,10 @@ namespace prg_automat
                 to_pay.Text = "Jděte pryč";
             }
         }
+
+        private void button_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

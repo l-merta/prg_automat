@@ -103,9 +103,9 @@ namespace prg_automat
             form2.Show();
         }
 
-        private void nadpis_1_Click(object sender, EventArgs e)
+        private void button_close_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 

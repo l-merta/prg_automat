@@ -41,6 +41,7 @@ namespace prg_automat
             this.corp_icon = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mince_2 = new System.Windows.Forms.PictureBox();
+            this.button_close = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mince_50)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mince_20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mince_10)).BeginInit();
@@ -186,11 +187,28 @@ namespace prg_automat
             this.mince_2.TabStop = false;
             this.mince_2.Click += new System.EventHandler(this.mince_2_Click);
             // 
+            // button_close
+            // 
+            this.button_close.BackColor = System.Drawing.Color.Firebrick;
+            this.button_close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_close.FlatAppearance.BorderSize = 0;
+            this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_close.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button_close.ForeColor = System.Drawing.Color.White;
+            this.button_close.Location = new System.Drawing.Point(406, 31);
+            this.button_close.Name = "button_close";
+            this.button_close.Size = new System.Drawing.Size(29, 26);
+            this.button_close.TabIndex = 26;
+            this.button_close.Text = "X";
+            this.button_close.UseVisualStyleBackColor = false;
+            this.button_close.Click += new System.EventHandler(this.button_close_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 611);
+            this.Controls.Add(this.button_close);
             this.Controls.Add(this.mince_2);
             this.Controls.Add(this.mince_50);
             this.Controls.Add(this.mince_20);
@@ -203,6 +221,7 @@ namespace prg_automat
             this.Controls.Add(this.corp_icon);
             this.Controls.Add(this.nadpis_2);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form3";
             this.Text = "Platba - hotově";
             ((System.ComponentModel.ISupportInitialize)(this.mince_50)).EndInit();
@@ -233,5 +252,6 @@ namespace prg_automat
         private System.Windows.Forms.PictureBox mince_50;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox mince_2;
+        private System.Windows.Forms.Button button_close;
     }
 }

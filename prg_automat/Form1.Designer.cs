@@ -36,6 +36,7 @@ namespace prg_automat
             this.button_fuze_tea = new System.Windows.Forms.PictureBox();
             this.button_fanta = new System.Windows.Forms.PictureBox();
             this.button_cola = new System.Windows.Forms.PictureBox();
+            this.button_close = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_sprite)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.button_minute_maid)).BeginInit();
@@ -63,7 +64,6 @@ namespace prg_automat
             this.nadpis_1.Size = new System.Drawing.Size(232, 31);
             this.nadpis_1.TabIndex = 1;
             this.nadpis_1.Text = "VYBERTE SI PITÍ";
-            this.nadpis_1.Click += new System.EventHandler(this.nadpis_1_Click);
             // 
             // pictureBox1
             // 
@@ -142,11 +142,28 @@ namespace prg_automat
             this.button_cola.TabStop = false;
             this.button_cola.Click += new System.EventHandler(this.button_cola_Click);
             // 
+            // button_close
+            // 
+            this.button_close.BackColor = System.Drawing.Color.Firebrick;
+            this.button_close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_close.FlatAppearance.BorderSize = 0;
+            this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_close.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button_close.ForeColor = System.Drawing.Color.White;
+            this.button_close.Location = new System.Drawing.Point(404, 31);
+            this.button_close.Name = "button_close";
+            this.button_close.Size = new System.Drawing.Size(29, 26);
+            this.button_close.TabIndex = 9;
+            this.button_close.Text = "X";
+            this.button_close.UseVisualStyleBackColor = false;
+            this.button_close.Click += new System.EventHandler(this.button_close_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 606);
+            this.Controls.Add(this.button_close);
             this.Controls.Add(this.button_sprite);
             this.Controls.Add(this.button_minute_maid);
             this.Controls.Add(this.button_fuze_tea);
@@ -155,6 +172,7 @@ namespace prg_automat
             this.Controls.Add(this.nadpis_1);
             this.Controls.Add(this.automat_name);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Výbìr znaèky";
@@ -179,5 +197,6 @@ namespace prg_automat
         private System.Windows.Forms.PictureBox button_minute_maid;
         private System.Windows.Forms.PictureBox button_sprite;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button_close;
     }
 }

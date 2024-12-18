@@ -124,5 +124,10 @@ namespace prg_automat
                 form4.Show();
             }
         }
+
+        private void button_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
