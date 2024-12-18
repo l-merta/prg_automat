@@ -174,6 +174,7 @@ namespace prg_automat
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Výbìr znaèky";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

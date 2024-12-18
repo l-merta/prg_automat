@@ -254,6 +254,7 @@ namespace prg_automat
             this.Controls.Add(this.nadpis_2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form2";
             this.Text = "Výběr pití";
             ((System.ComponentModel.ISupportInitialize)(this.drinkPic5)).EndInit();

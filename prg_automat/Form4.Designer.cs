@@ -147,6 +147,7 @@ namespace prg_automat
             this.Controls.Add(this.nadpis_2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form4";
             this.Text = "Platba - kartou";
             ((System.ComponentModel.ISupportInitialize)(this.button_terminal)).EndInit();

@@ -222,6 +222,7 @@ namespace prg_automat
             this.Controls.Add(this.nadpis_2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form3";
             this.Text = "Platba - hotově";
             ((System.ComponentModel.ISupportInitialize)(this.mince_50)).EndInit();
